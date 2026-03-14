@@ -1,6 +1,6 @@
-import React, { use, useEffect } from "react";
+import React, {  useEffect } from "react";
 import { Categories, mockData } from "../assets/mockData";
-import HeroImage from "../assets/Images/Hero-Section.png";
+import Heroimage from "../assets/images/hero-Section.png";
 import InfoSection from "../components/InfoSection";
 import CategorySection from "../components/CategorySection";
 import { setProducts } from "../redux/productSlice";
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
           {/* Right sidebar */}
           <div className="w-full md:w-9/12 mt-8 md:mt-0 h-96 relative">
-            <img src={HeroImage} alt="" className="h-full w-full" />
+            <img src={Heroimage} alt="" className="h-full w-full" />
             <div className="absolute top-16 left-8 ">
               <p className="text-gray-600 mb-4">Samad | Sports shop</p>
               <h2 className="text-3xl font-bold">WELCOME TO SPORTS SHOP</h2>
